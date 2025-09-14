@@ -1,0 +1,13 @@
+# .ruff.toml
+line-length = 120
+target-version = "py312"
+
+select = ["ALL"]
+
+ignore = [
+    "ANN", "COM", "C90", "DJ", "EXE", "T10", "TID",
+    "D100","D101","D102","D103","D104","D105","D106","D107",
+    "D200","D205","D212","D400","D401","D415",
+    "E402","E501",
+    "TRY003","TD002","TD003","FIX002",
+]
